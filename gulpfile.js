@@ -142,5 +142,5 @@ const watchTask = () => {
 	gulp.watch(filesPath.favicon, faviconTask).on("change", browserSync.reload);
 }
 
-exports.build = parallel(scssTask, jsTask, fontTask, faviconTask, readmeTask);
+exports.build = parallel(scssTask, jsTask, graphicsTask, fontTask, faviconTask, readmeTask);
 exports.default = series(exports.build, watchTask);

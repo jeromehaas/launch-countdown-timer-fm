@@ -44,7 +44,7 @@ class Stars {
 				this.getNumberOfStars();
 				this.insertStar();
 				this.addAnimation();
-			}, 1000);
+			}, 5000);
 		});
 	}
 

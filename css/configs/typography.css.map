@@ -1,0 +1,1 @@
+{"version":3,"sources":["typography.css"],"names":[],"mappings":"AAAA,EACE,oCAAwC,AACxC,eAAiB,CAClB","file":"typography.css","sourcesContent":["* {\n  font-family: \"Red Hat Text\", sans-serif;\n  font-weight: 700;\n}"]}

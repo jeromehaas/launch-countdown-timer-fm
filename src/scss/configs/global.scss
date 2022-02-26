@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+	scrollbar-width: none;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+*::selection {
+	background-color: rgba(109,114,222,0.5);
+	color: #fff;
+	opacity: 0.99;
+}
+ 
+*::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}

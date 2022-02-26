@@ -1,0 +1,42 @@
+%number {
+	display: flex;
+	height: 100%;
+	line-height: 0;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+}
+
+%circle-bottom {
+	background: 
+	radial-gradient(0.8rem circle at 0 100%,
+			hsl(240, 11%, 9%) 50%,
+			transparent 50.2%),
+	radial-gradient(0.8rem circle at 100% 100%,
+			hsl(240, 11%, 9%) 50%,
+			transparent 50.2%);
+}
+
+%circle-top {
+	background: 
+	radial-gradient(0.8rem circle at 0 0,
+			hsl(240, 11%, 9%) 50%,
+			transparent 50.2%),
+	radial-gradient(0.8rem circle at 100% 0,
+			hsl(240, 11%, 9%) 50%,
+			transparent 50.2%);
+}
+
+%back-front {
+	align-items: flex-end;
+	border-radius: 0.5rem 0.5rem 0 0;
+	background-color: #2C2C44;
+	color: #D64E72;
+	overflow: hidden;
+}
+
+%bottom-front {
+	align-items: flex-start;
+	background-color: #2C2C44;
+	border-radius: 0 0 0.5rem 0.5rem;
+}
